@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            position: relative;
+        }
+
+        #wrapper > div {
+            width: 100px;
+            height: 100px;
+        }
+
+        .static {
+            position: static;
+            background-color: red;
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: blue;
+            top: 50px;
+            left: 100px;
+        }
+
+        .relative {
+            position: relative;
+            top: 10px;
+            left: 50px;
+            background-color: green;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0px;
+            left : 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="static"></div>
+        <div class="absolute"></div>
+        <div class="relative"></div>
+        <div class="fixed"></div>
+    </div>
+</body>
+</html>
