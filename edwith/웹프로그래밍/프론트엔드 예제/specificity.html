@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li {
+            background-color: aqua;
+        }
+
+        #dummy1 {
+            background-color: red;
+        }
+
+        div > nav > ul > #dummy1 {
+            background-color: green;
+        }
+
+        div > nav > ul > #dummy1, div > nav > ul > #dummy1 {
+            background-color: yellow;
+        } */
+
+        #dummy-div > #dummy-nav > #dummy-list > li {
+            background-color: red;
+        }
+
+        .dummy-div-class > .dummy-nav-class > .dummy-list-class > li#dummy1 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="dummy-div" class="dummy-div-class">
+        <nav id="dummy-nav" class="dummy-nav-class">
+            <ul id="dummy-list" class="dummy-list-class">
+                <li id="dummy1">test1</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
